@@ -3,7 +3,7 @@ FROM alpine:3.6 as builder
 WORKDIR /
 
 RUN apk add --no-cache git  build-base linux-headers && \
- git clone https://github.com/wangyu-/udp2raw-tunnel.git  && \
+ git clone https://github.com/kennylam777/udp2raw-tunnel.git  && \
  cd udp2raw-tunnel && \
  make dynamic
 

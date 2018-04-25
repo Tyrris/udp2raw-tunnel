@@ -1,3 +1,10 @@
+This branch will contain some messy things that may conflict with upstream. Therefore this branch will not be merged to master and upstream. Any changes proposed to the upstream should be worked outside this branch.
+
+Find docker image built with this branch on [docker hub](https://hub.docker.com/r/kennylam777/udp2raw-tunnel/)
+```
+docker pull kennylam777/udp2raw-tunnel:edge
+```
+---
 # Udp2raw-tunnel
 
 
