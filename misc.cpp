@@ -115,7 +115,7 @@ void print_help()
 	printf("git version:%s    ",git_version_buf);
 	printf("build date:%s %s\n",__DATE__,__TIME__);
 
-	printf("repository: https://github.com/wangyu-/udp2raw-tunnel\n");
+	printf("repository: https://github.com/kennylam777/udp2raw-tunnel forked from: https://github.com/wangyu-/udp2raw-tunnel\n");
 	printf("\n");
 	printf("usage:\n");
 	printf("    run as client : ./this_program -c -l local_listen_ip:local_port -r server_host:server_port  [options]\n");
